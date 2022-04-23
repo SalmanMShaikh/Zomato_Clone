@@ -1,0 +1,7 @@
+.filtersContainer {
+    display: flex;
+    margin-top: 20px;
+    gap: 20px;
+    flex-wrap: wrap;
+    opacity: 0.5;
+}

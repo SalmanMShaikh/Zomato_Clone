@@ -1,0 +1,70 @@
+.thirdImage {
+    color: black;
+}
+
+.headerSection {
+    margin-top: 30px;
+
+
+    display: flex;
+    position: relative;
+    font-size: 1.6rem;
+    justify-content: flex-start;
+    background-color: transparent;
+    flex-wrap: wrap;
+}
+
+.buttonsContainer {
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+
+    cursor: pointer;
+
+}
+
+
+.bikeImage,
+.nightLifeImage,
+.plateImage {
+    height: 35px;
+}
+
+.headerDescription {
+    font-weight: 500;
+    font-size: 1.5rem;
+    padding-left: 15px;
+    padding-top: 20px;
+}
+
+.imageOuterContainer {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.currentImage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background: rgb(229, 243, 243) none repeat scroll 0% 0%;
+}
+
+.borderBottom {
+    border-bottom: 2px solid rgb(239, 84, 99);
+    color: rgb(239, 84, 99);
+}
+
+
+@media(max-width: 440px) {
+    .headerSection {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

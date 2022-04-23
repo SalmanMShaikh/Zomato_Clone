@@ -1,0 +1,48 @@
+.exploreSection {
+    margin-top: 20px;
+    min-height: 80vh;
+}
+
+.exploreCardContainer {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: center;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rating {
+    padding: 0 5px;
+    border-radius: 5px;
+}
+
+.cardTitle {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.deliveryTime {
+    position: absolute;
+    bottom: 130px;
+    right: 25px;
+    background-color: rgb(234, 223, 221);
+
+    border-radius: 5px;
+    padding: 0 5px;
+}
+
+.discount {
+    position: absolute;
+    bottom: 130px;
+    left: 10px;
+    background-color: rgb(37, 111, 239);
+
+
+    padding: 0 5px;
+}

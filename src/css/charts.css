@@ -1,0 +1,17 @@
+.simpleChart {
+    margin-top: 40px;
+    padding-bottom: 20px;
+}
+
+.chartOne {
+    padding-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-bottom: 40x;
+}
+
+.chartTwo {
+    padding-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: 40px;
+
+}

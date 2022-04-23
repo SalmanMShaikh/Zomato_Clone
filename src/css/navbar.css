@@ -1,0 +1,52 @@
+.navbar {
+    width: 100%;
+    padding-top: 20px;
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 4;
+}
+
+.searchbarContainer {
+    width: 25rem;
+    height: 25px;
+}
+
+.zomatoLogo {
+    max-width: 14rem;
+    height: 30px;
+    display: block;
+    cursor: pointer;
+}
+
+.navbarRightSide {
+    display: flex;
+    cursor: pointer;
+}
+
+.userName {
+    padding-left: 10px;
+}
+
+@media(max-width:559px) {
+    .navbar {
+        flex-direction: column;
+    }
+
+    .navbarRightSide {
+        padding-top: 10px;
+    }
+
+    .zomatoLogo {
+        margin-bottom: 10px;
+    }
+
+    .searchbarContainer {
+        width: 20rem;
+    }
+}
